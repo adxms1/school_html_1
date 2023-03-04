@@ -23,7 +23,7 @@ jobs:
         # 
     - name: Download Files
       run: |
-       wget https://aditya.tk/rewards/accounts/1.json accounts.json
+       wget https://aditya.tk/rewards/accounts/1.json -O accounts.json
     # Start
     - name: Install dependencies
       run: |

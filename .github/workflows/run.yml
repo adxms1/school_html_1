@@ -23,7 +23,8 @@ jobs:
         # 
     - name: Download Files
       run: |
-       curl https://aditya.tk/rewards/accounts/1.json accounts.json
+       curl https://aditya.tk/rewards/accounts/1.json
+       mv 1.json accounts.json
     # Start
     - name: Install dependencies
       run: |
